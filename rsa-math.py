@@ -8,7 +8,7 @@ banner = """
     |    -|__   |     |  | | | |     | | | |     |
     |__|__|_____|__|__|  |_|_|_|__|__| |_| |__|__|
 
-      Script to aim teach how RSA math works...
+       Script that aim teach how RSA math works
 """
 
 sys.setrecursionlimit(10000)
@@ -244,6 +244,7 @@ class RsaMath:
 if __name__ == "__main__":
     r = RsaMath()
     Helper.clear()
+
     #Banner
     Helper.print_banner()
     Helper.go_on()
